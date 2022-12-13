@@ -151,6 +151,16 @@ body {
   .section-about {
     background-color: #FFE6AC;
   }
+
+  .section-services {
+    background-color: #FFE6AC;
+  }
+
+  .section-vision {
+    background-image: url(../images/vision.jpg);
+    padding-top: 60px;
+    color:#FFFFFF
+  }
   
   
   /* END OF YOUR MOBILE-FIRST CSS. 
