@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* DEFAULT/GENERAL/GENERIC STYLES */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 71px;
+    font-weight: bold;
+    line-height: 106px;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    padding: 1em;
+  }
+  
+  nav {
+    background-color: #222222;
+  }
+  
+  nav li {
+    text-align: center;
+  }
+  
+  nav a:link,
+  nav a:visited {
+    color: #C78B07;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  nav li.current a:link,
+  nav li.current a:visited {
+    background-color: #C78B07;
+    color: #000000;
+  }
+  
+  .logo {
+    background-color: #C78B07;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  nav form {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 42px;
+  }
+  
+  nav form input {
+    font-size: 18px;
+    padding-left: 5px;
+    width: 100%;
+  }
+  
+  nav form button {
+    background: none;
+    border: 1px solid #C78B07;
+    color: #C78B07;
+    font-size: 22px;
+    padding: 6px 8px;
+  }
+  
+  .header-welcome {
+    background-image: url(../imgs/main-banner.jpg);
+    background-size: cover;
+    padding-top: 60px;
+  }
+  
+  .header-welcome .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    padding-top: 50px;
+  }
+  
+  .header-welcome button {
+    background-color: #C78B07;
+  }
+  
+  .section-about {
+    background-color: #FFE6AC;
+  }
+  
+  
+  /* END OF YOUR MOBILE-FIRST CSS. 
+  NO MEDIA QUERIES ABOVE THIS LINE */
+  
+  /* TABLET STYLES: 760px to 1199px */
+  @media screen and (min-width: 760px) {
+  
+    .container {
+        width: 706px;
+        margin: 0 auto;
+    }
+    /* NOTHING ELSE! */ 
+  }
+  
+  
+  /* DESKTOP STYLES: ABOVE 1200px */
+  @media screen and (min-width: 1200px) {
+  
+    .container {
+        width: 1168px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+  
+    /* ALL YOUR DESKTOP STYLES HERE */
+  
+  }
