@@ -273,13 +273,17 @@ body {
   
   /* DESKTOP STYLES: ABOVE 1200px */
   @media screen and (min-width: 1200px) {
-  
+
     .container {
-        width: 1168px;
-        padding: 0 16px;
-        margin: 0 auto;
+      width:1168px;
+      padding: 0 16px;
+      margin:0 auto;
     }
   
-    /* ALL YOUR DESKTOP STYLES HERE */
-  
-  }
+    /* ALL YOUR DESKTOP STYLES HERE */ 
+
+    .display {
+      display: grid;
+      
+
+    
