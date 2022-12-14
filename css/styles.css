@@ -156,11 +156,105 @@ body {
     background-color: #FFE6AC;
   }
 
+  .section-services button {
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 6px 8px;
+
+  }
+
+  .section-services h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 20px; 
+  }
+
   .section-vision {
-    background-image: url(../images/vision.jpg);
+    background-image: url("../images/vision.jpg");
     padding-top: 60px;
     color:#FFFFFF
   }
+  .section-vision h3 { 
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 20px;
+  }
+
+  .section-vision button {
+    background-color: black;
+    border: 2px solid #C78B07;
+    color: #FFFFFF;
+    font-size: 22px;
+    padding: 6px 8px;
+  }
+
+  .section-team {
+    background-color:#FFE6AC
+  }
+
+  .section-team h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 20px; 
+}
+  .section-team h4 {
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #C78B07;
+      }
+
+
+
+  .section-contact h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 20px;
+  }
+
+  .section-contact h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 20px;
+  }
+
+  .section-hours table, th, td {
+        border: 1px solid black;
+      }
+      
+      th {
+        font-weight: bold;
+      }
+
+      .section-hours tr:nth-child(1) {
+        background-color: #FFE6AC;
+      }
+
+      .section-location h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 20px;
+      }
+
+      footer .container {
+        height: 90px;
+      }
+      
+      footer p {
+        color:#C78B07;
+        background-color:#222222;
+        font-size: 14px;
+        padding-right: 40px;
+        text-align-last: right;
+        padding-top: 40px;
+      }
+
   
   
   /* END OF YOUR MOBILE-FIRST CSS. 
